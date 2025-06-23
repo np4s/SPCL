@@ -1,0 +1,16 @@
+!python code/train.py \
+--backbone="mm_dfn" \
+--name=demo6_cl \
+--hidden_dim=300 \
+--hidden2_dim=150 \
+--learning_rate=0.0001 \
+--dataset="meld" \
+--modalities=at \
+--batch_size=32 \
+--epochs=60 \
+--seed=500 \
+--drop_rate=0.4 \
+--encoder_modules=transformer \
+--cl_threshold=0.2 \
+--cl_growth=1.6 \
+--use_cl \

@@ -1,0 +1,16 @@
+python code/train.py \
+--backbone="biddin" \
+--name=demo6_cl \
+--hidden_dim=150 \
+--hidden2_dim=150 \
+--hidden3_dim=100 \
+--hidden4_dim=100 \
+--learning_rate=0.0004 \
+--dataset="meld" \
+--modalities=at \
+--batch_size=32 \
+--seed=12 \
+--encoder_modules=transformer \
+--cl_threshold=0.7 \
+--cl_growth=1.85 \
+--use_cl \

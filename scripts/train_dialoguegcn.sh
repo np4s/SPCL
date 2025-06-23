@@ -1,0 +1,19 @@
+!python code/train.py \
+--backbone="dialogue_gcn" \
+--name=demo6_cl \
+--hidden_dim=200 \
+--hidden2_dim=100 \
+--learning_rate=0.0001 \
+--dataset="meld" \
+--modalities=av \
+--batch_size=32 \
+--seed=12 \
+--encoder_nlayers=2 \
+--trans_head=1 \
+--wp=5 \
+--wf=5 \
+--drop_rate=0.1 \
+--encoder_modules=transformer \
+--cl_threshold=0.7 \
+--cl_growth=1.25 \
+--use_cl \
