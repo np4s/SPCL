@@ -1,4 +1,4 @@
-!python code/train.py \
+python code/train.py \
 --backbone="mm_dfn" \
 --name=demo6_cl \
 --hidden_dim=300 \
