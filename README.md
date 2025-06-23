@@ -10,8 +10,9 @@ Conversational Emotion Recognition task.
 
 ## Motivation
 In multimodal tasks, due to *Property Discrepancy* and *Quality Discrepancy* across modalities i.e. modality imbalance, the effectiveness of multimodal integration is often limited, leading to **suboptimal modality intergration and reduction in overall performance**. We conducted an experiment comparing the performance of tri-modal model with their bi-modal versions. From the results, it can be seen that the bi-modal models occansionally outperform their tri-modal counterparts, depicted by the negative values of Gain(%).
+
 <div  align="center">    
-<img src="assets/motivation.PNG" width = "65%" />
+<img src="assets/motivation.png" width = "65%" />
 </div>
 
 ## Method
@@ -19,9 +20,10 @@ Framework for SPCL method consists two sub-modules:
 1. Modality Prediction, which leverages available Emotion Recognition model to generate uni-modal and cross-modal predictions;
 2. Self-paced Curriculum Learning-based (SPCL), our main proposed module, which designs learning curricula to address imbalance learning across modalities throughout training phase via 2 components:
     - Difficulty Measurer for determining the difficulty of samples in the dataset
-    - Learning Scheduler for controlling the learning pace    
+    - Learning Scheduler for controlling the learning pace
+
 <div  align="center">    
-<img src="assets/model.PNG" width = "65%" />
+<img src="assets/model.png" width = "65%" />
 </div>
 
 
